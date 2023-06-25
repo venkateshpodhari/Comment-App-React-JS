@@ -1,0 +1,152 @@
+.amber {
+  background-color: #f59e0b;
+}
+
+.blue {
+  background-color: #0b69ff;
+}
+
+.orange {
+  background-color: #f97316;
+}
+
+.emerald {
+  background-color: #10b981;
+}
+
+.teal {
+  background-color: #14b8a6;
+}
+
+.red {
+  background-color: #b91c1c;
+}
+
+.light-blue {
+  background-color: #0ea5e9;
+}
+
+/* Write your CSS here */
+.comment-container {
+  display: flex;
+  flex-direction: column;
+  margin-top: 6px;
+  margin-left: 5px;
+  width: 700px;
+  flex-wrap: wrap;
+}
+.comment-initial {
+  display: flex;
+}
+
+.li {
+  list-style-type: none;
+}
+
+.initial-letter {
+  height: 30px;
+  width: 30px;
+  color: #ffffff;
+  border-radius: 50px;
+  text-align: center;
+  padding-top: 3px;
+}
+
+.username {
+  font-family: 'Roboto';
+  font-size: 15px;
+  font-weight: 500;
+  color: #1e293b;
+  height: 8px;
+}
+
+.date {
+  color: #94a3b8;
+  font-family: 'Roboto';
+  font-size: 10px;
+  font-weight: 0px;
+  padding-left: 15px;
+}
+.comment {
+  color: #64748b;
+  font-family: 'Roboto';
+  font-size: 13px;
+  font-weight: 0px;
+  padding-left: 0px;
+  height: 10px;
+}
+
+.button1 {
+  background-color: transparent;
+  outline: none;
+  cursor: pointer;
+  width: 20px;
+  height: 20px;
+  border-width: 0px;
+}
+.like {
+  color: #0b69ff;
+  font-family: 'Roboto';
+  font-size: 12px;
+  padding-left: 20px;
+  font-weight: bold;
+  padding-top: 3px;
+}
+.row {
+  display: flex;
+}
+.like-delete-container {
+  display: flex;
+  width: 700px;
+  padding-top: 5px;
+  justify-content: space-between;
+}
+
+.delete {
+  height: 20px;
+}
+
+.unlike {
+  color: #64748b;
+  font-family: 'Roboto';
+  font-size: 12px;
+  padding-left: 20px;
+  font-weight: 300;
+  padding-top: 3px;
+}
+
+@media screen and (max-width: 600px) {
+  .like-delete-container {
+    display: flex;
+    width: 250px;
+    padding-top: 5px;
+    flex-wrap: wrap;
+    justify-content: space-between;
+  }
+  .separator {
+    border: 1px solid #cbd2d9;
+    max-width: 280px;
+  }
+  .comment-initial {
+    display: flex;
+    width: 300px;
+  }
+  .initial-letter {
+    height: 28px;
+    width: 70px;
+    color: #ffffff;
+    border-radius: 60px;
+    text-align: center;
+    padding-top: 5px;
+    font-family: 'Roboto';
+    font-size: 13px;
+    margin-top: 18px;
+  }
+  .username {
+    font-family: 'Roboto';
+    font-size: 15px;
+    font-weight: 500;
+    color: #1e293b;
+    height: 8px;
+  }
+}

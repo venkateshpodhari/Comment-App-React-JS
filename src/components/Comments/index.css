@@ -1,0 +1,145 @@
+/* Write your CSS here */
+.bg-container {
+  min-height: 100vh;
+  background-color: #dee0e3;
+  display: flex;
+}
+
+.title {
+  color: #1e293b;
+  font-family: 'Roboto';
+  font-size: 40px;
+  font-weight: bold;
+}
+
+.input-title {
+  color: #475569;
+  font-family: 'Roboto';
+  font-size: 15px;
+  font-weight: bold;
+}
+
+.comments-input-container {
+  display: flex;
+  flex-direction: column;
+}
+
+.comments-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.img {
+  width: 300px;
+}
+
+.button {
+  background-color: #0284c7;
+  border-radius: 8px;
+  height: 35px;
+  width: 160px;
+  color: #cbd2d9;
+  outline: none;
+  cursor: pointer;
+  border-width: 0px;
+}
+
+::placeholder {
+  font-family: 'Roboto';
+  font-size: 13px;
+  color: #7e858e;
+}
+
+.input {
+  background-color: transparent;
+  border: 1px #94a3b8 solid;
+  outline: none;
+  height: 30px;
+  margin-bottom: 5px;
+  padding: 10px;
+  border-radius: 5px;
+}
+
+.text {
+  background-color: transparent;
+  border: 1px #94a3b8 solid;
+  outline: none;
+  margin-bottom: 5px;
+  padding: 10px;
+  border-radius: 5px;
+}
+
+.separator {
+  border: 1px solid #cbd2d9;
+}
+
+.comments-count {
+  background-color: #0284c7;
+  padding-left: 10px;
+  padding-right: 10px;
+  padding-top: 2px;
+  padding-bottom: 2px;
+  font-weight: 500;
+  border-radius: 5px;
+  font-size: 14px;
+  color: #dee0e3;
+}
+
+.comments-count-title {
+  font-family: 'Roboto';
+  font-size: 13px;
+  color: #475569;
+  font-weight: 500;
+}
+
+.comment-list {
+  padding-left: 0;
+  margin-top: 0;
+}
+
+@media screen and (max-width: 600px) {
+  .bg-container {
+    min-height: 100vh;
+    background-color: #dee0e3;
+    display: flex;
+    flex-wrap: wrap;
+    padding: 20px;
+    justify-content: center;
+  }
+
+  .comments-container {
+    display: flex;
+    flex-direction: column;
+    max-width: 250px;
+    flex-wrap: wrap;
+  }
+  .img {
+    width: 300px;
+    display: none;
+  }
+
+  .separator {
+    border: 1px solid #cbd2d9;
+    max-width: 400px;
+  }
+
+  .comments-input-container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+  }
+
+  .button {
+    background-color: #0284c7;
+    border-radius: 8px;
+    height: 25px;
+    width: 120px;
+    color: #cbd2d9;
+    outline: none;
+    cursor: pointer;
+    border-width: 0px;
+    font-family: 'Roboto';
+    font-size: 10px;
+  }
+}
